@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodename-pod
+spec:
+  nodeName: e3aef156873c.mylabserver.com
+  containers:
+  - name: nginx
+    image: nginx
+
